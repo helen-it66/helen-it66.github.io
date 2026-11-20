@@ -59,6 +59,7 @@ virtio-win CD.
 
 ### Problem: no internet after install
 **Symptom:** when trying to ping 8.8.8.8 I didn't get a response. In the terminal running `ipconfig` showed my IPv4 starting with 169.254
+
 **Fix:** CashyOS has the ufw firewall turned on by default and it was blocking the VM's network. Running the command
 `sudo ufw status` showed me if it was active or not. Since it was active I ran the following to allow the lab network through: 
 `sudo ufw allow in on virbr0` 
