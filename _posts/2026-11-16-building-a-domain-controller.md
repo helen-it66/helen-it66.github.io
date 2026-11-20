@@ -4,9 +4,9 @@ title: "Building a Windows Server 2025 Domain Controller on Linux"
 ---
 ## Why I built this
 
-[Wanting to get into IT support I need the necessary skills
+Wanting to get into IT support I need the necessary skills
 with the right tools. Since help desk roles use Active Directory I needed to find
-a way to gain that experience. Which led me to building my own domain to practice on.]
+a way to gain that experience. Which led me to building my own domain to practice on.
 
 ## Lab setup
 
