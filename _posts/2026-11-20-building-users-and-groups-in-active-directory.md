@@ -76,6 +76,7 @@ The users were created the same way: a list of names, usernames, departments and
 ```powershell
 Get-ADUser -Filter * | Select Name, DistinguishedName
 ```
+![helenlab.AD users](/images/AD users.png)
 
 All the users existed. The DistinguishedName column showed the real problem: the Sales users and my admin account were in `OU=Lab User`, while everyone else was in `OU=Lab Users`. One missing "s".
 
