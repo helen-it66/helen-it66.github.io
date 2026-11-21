@@ -3,7 +3,7 @@ layout: post
 title: "Building a Company in Active Directory: OUs, Users and Groups with PowerShell"
 ---
 
-In my last post]({{ site.baseurl }}{% post_url 2026-11-16-building-a-domain-controller %}), I promoted my Windows Server 2025 VM (DC01) to a domain controller for `helenlab.local`. An empty domain isn't much use, so this time I gave it something to manage: a small fictional company called **Northfield Supply Co.**, with departments, employees, security groups and a separate admin account for me.
+In my [last post]({{ site.baseurl }}{% post_url 2026-11-16-building-a-domain-controller %}), I promoted my Windows Server 2025 VM (DC01) to a domain controller for `helenlab.local`. An empty domain isn't much use, so this time I gave it something to manage: a small fictional company called **Northfield Supply Co.**, with departments, employees, security groups and a separate admin account for me.
 
 ## The plan
 
