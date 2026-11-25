@@ -122,12 +122,7 @@ function Write-Log {
 
 A sample of the log:
 
-```
-2026-11-25 13:45:02 | hadmin | pshah | Lookup | Found (Locked=True, Enabled=True)
-2026-11-25 13:45:09 | hadmin | pshah | Unlock | Success
-2026-11-25 13:45:20 | hadmin | pshah | Password reset | Success, change required at next logon
-2026-11-25 13:46:31 | hadmin | rwalsh | Stopped | Account disabled, escalated
-```
+![helenlab.AD users](/images/file_log.png)
 
 The one rule I followed throughout: **the password is never logged**. Logs are read by many people, so a password in a log is a password exposed.
 
